@@ -16,5 +16,5 @@ Pasos a seguir:
 - Ejecutar composer install
 - Ejecutar copy .env.example .env
     Especificar la base de datos y el puerto a usar para la conexion con xampp dentro del .env
-
+- Ejecutar php artisan migrate:fresh
 
