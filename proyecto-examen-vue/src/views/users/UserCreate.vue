@@ -16,7 +16,7 @@
                 <label for="rut" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">RUT</label>
                 <input type="text" id="rut" v-model="form.rut" class="block w-full p-4 text-gray-900 border border-gray-300 rounded-lg bg-gray-50 sm:text-md focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                 <div v-if="errors.rut">
-                    <span class="text-sm text-red-400">{{ errors.name[0] }}</span>
+                    <span class="text-sm text-red-400">{{ errors.rut[0] }}</span>
                 </div>
             </div>
             <div class="mb-6">

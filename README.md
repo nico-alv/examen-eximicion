@@ -23,4 +23,6 @@ Pasos a seguir:
 - ejecutar npm install
 - Ejecutar npm run dev
 
+Tuve un error al final con CORS, no me acepto la http request desde vue pero puede verificar que la API funciona con postman
+
 
