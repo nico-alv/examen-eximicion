@@ -5,8 +5,8 @@ namespace App\Http\Controllers\API\V1;
 use App\Models\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Http\Resources\UserResource;
 use App\Http\Resources\UserCollection;
-use App\Http\Resources\V1UserResource;
 use App\Http\Requests\StoreUserRequest;
 
 class UserController extends Controller
@@ -20,7 +20,7 @@ class UserController extends Controller
 
     public function show(User $user)
     {
-        return new V1UserResource($user);
+        return new UserResource($user);
     }
 
     public function store(StoreUserRequest $request){

@@ -19,10 +19,13 @@ Pasos a seguir:
     Especificar la base de datos y el puerto a usar para la conexion con xampp dentro del .env
 - Ejecutar php artisan migrate:fresh
 - Ejecutar php artisan db:seed
+- Ejecutar php artisan serve
 - Entrar en la carpeta proyecto-examen-vue
 - ejecutar npm install
 - Ejecutar npm run dev
 
 Tuve un error al final con CORS, no me acepto la http request desde vue pero puede verificar que la API funciona con postman
+
+Pude arreglar el error posteriormente al examen (19:55), publiqué el ultimo commit para demostrar mi esfuerzo y que pude hacer funcionar la conexion entre el backend y el frontend.
 
 
