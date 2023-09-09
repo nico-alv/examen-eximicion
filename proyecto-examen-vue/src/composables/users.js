@@ -53,6 +53,7 @@ export default function useUsers() {
         user,
         users,
         getUsers,
+        getUser,
         storeUser,
         updateUser,
         destroyUser,
