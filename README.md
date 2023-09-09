@@ -9,6 +9,7 @@ Aqui, incluiré los pasos a seguir para inicializar el proyecto para su revisió
 Dependencias:
 - Composer
 - Xampp
+- Axios
 
 Pasos a seguir:
 - Inicializar Apache y MySQL en XAMPP
@@ -17,4 +18,9 @@ Pasos a seguir:
 - Ejecutar copy .env.example .env
     Especificar la base de datos y el puerto a usar para la conexion con xampp dentro del .env
 - Ejecutar php artisan migrate:fresh
+- Ejecutar php artisan db:seed
+- Entrar en la carpeta proyecto-examen-vue
+- ejecutar npm install
+- Ejecutar npm run dev
+
 
